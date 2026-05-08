@@ -1,4 +1,4 @@
-Prompt 1: 
+Prompt 1: Kiểm tra giúp tôi đoạn code này đã chuẩn Semantic chưa
 <header
         style="background: #2c3e50; color: white; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center;">
         <div class="logo">
@@ -16,48 +16,29 @@ Prompt 1:
         </nav>
     </header>
 
-Kiểm tra giúp tôi đoạn code này đã chuẩn Semantic chưa
+Prompt 2: giải thích sự khác biệt giữa các thẻ (Ví dụ: <b> vs <strong>)
+<b> vs <strong> (Chữ đậm)Dù cả hai đều làm chữ hiển thị đậm hơn trên màn hình, nhưng mục đích sử dụng lại hoàn toàn khác nhau:
+<b> (Bold): Chỉ mang tính chất trình bày. Nó làm chữ đậm lên để gây chú ý về mặt thị giác nhưng không mang thêm ý nghĩa quan trọng nào về nội dung.
+<strong> (Strong Importance): Mang ý nghĩa ngữ nghĩa. Nó báo hiệu rằng đoạn văn bản này cực kỳ quan trọng, nghiêm trọng hoặc khẩn cấp.
+Các trình đọc màn hình (cho người khiếm thị) sẽ nhấn mạnh hơn khi đọc thẻ này.
 
-Prompt 2:
-<div class="hero-section" style="padding: 80px 20px; background-color: #ecf0f1; text-align: center;">
-    <h1 style="font-size: 36px; font-weight: bold; color: #2c3e50;">
-        Giải Pháp Chuyển Đổi Số Toàn Diện</h1>
-    <p style="margin-top: 15px; font-size: 18px; color: #7f8c8d;">
-        Chúng tôi giúp doanh nghiệp của bạn bứt phá doanh thu trên nền tảng số.</p>
-    <button style="margin-top: 25px; padding: 12px 25px; background: #e74c3c; border: #e74c3c; color: white; display: inline-block; border-radius: 5px; cursor: pointer;"> Khám phá ngay</button>
-</div>
 
-Kiểm tra đoạn code này đã chuẩn theo semantic chưa
+Prompt 3: Tư vấn về tác động của Semantic tags lên SEO
+1. Tăng khả năng "Hiểu" của Google (Indexing & Context)
+Google Bot là một chương trình máy tính, nó không "nhìn" thấy giao diện đẹp hay xấu như con người, nó đọc cấu trúc mã.
 
-Prompt 3: 
-<section style="padding: 50px 20px; max-width: 1200px; margin: 0 auto;">
-    <h2 style="font-size: 28px; text-align: center; margin-bottom: 40px; font-weight: bold;">
-        Các Dịch Vụ Nổi Bật
-    </h2>
-    <div class="services-list" style="display: flex; justify-content: space-between; gap: 20px;">
-    <article style="border: 1px solid #bdc3c7; border-radius: 8px; padding: 25px; width: 30%; text-align: center;">
-        <div class="service-icon" style="font-size: 40px;">💻</div>
-        <div class="service-name" style="font-weight: bold; font-size: 22px; margin: 15px 0;">Phát Triển Web</div>
-        <div class="service-detail" style="color: #555;">
-        Thiết kế và lập trình website chuẩn SEO, tốc độ cao, tương thích mọi thiết bị.</div>
-    </article>
-    <article
-        style="border: 1px solid #bdc3c7; border-radius: 8px; padding: 25px; width: 30%; text-align: center;">
-        <div class="service-icon" style="font-size: 40px;">📱</div>
-        <div class="service-name" style="font-weight: bold; font-size: 22px; margin: 15px 0;">Ứng Dụng Di
-            Động</div>
-        <div class="service-detail" style="color: #555;">
-            Xây dựng ứng dụng iOS và Android với trải nghiệm người dùng (UX) mượt mà nhất.</div>
-    </article>            
-    <article
-        style="border: 1px solid #bdc3c7; border-radius: 8px; padding: 25px; width: 30%; text-align: center;">
-        <div class="service-icon" style="font-size: 40px;">☁️</div>
-        <div class="service-name" style="font-weight: bold; font-size: 22px; margin: 15px 0;">Điện Toán Đám
-            Mây</div>
-        <div class="service-detail" style="color: #555;">
-            Tư vấn và triển khai hạ tầng máy chủ ảo linh hoạt,bảo mật và tiết kiệm chi phí.</div>
-    </article>
-    </div>
-</section>
+Xác định trọng tâm: Khi bạn dùng <article> thay vì <div>, Google biết chính xác đâu là nội dung chính. Khi dùng <nav>, nó biết đây là các liên kết điều hướng.
 
-Kiểm tra đoạn code này đã chuẩn theo semantic chưa
+Phân cấp thông tin: Các thẻ tiêu đề <h1> đến <h6> tạo ra một mục lục logic. Nếu thiếu cấu trúc này, Google sẽ gặp khó khăn trong việc xác định chủ đề cốt lõi của trang.
+
+2. Cải thiện tỷ lệ nhấp chuột (CTR) thông qua Rich Snippets
+Sử dụng các thẻ ngữ nghĩa (kết hợp với Schema Markup) giúp website có cơ hội hiển thị các "đoạn trích giàu thông tin" trên kết quả tìm kiếm.
+
+Ví dụ: Các thẻ như <footer>, <time>, hoặc các thẻ mô tả sản phẩm giúp Google hiển thị ngày đăng bài, giá cả, hoặc đánh giá sao ngay trên trang tìm kiếm. Điều này làm nổi bật website của bạn so với đối thủ và kéo người dùng click vào.
+
+3. Ưu tiên trải nghiệm người dùng (UX) và Trợ năng (Accessibility)
+Google cực kỳ ưu ái các trang web hỗ trợ tốt cho người khuyết tật.
+
+Các trình đọc màn hình (Screen Readers) dựa hoàn toàn vào Semantic tags để đọc nội dung cho người khiếm thị.
+
+Một website có cấu trúc tốt thường có tỉ lệ thoát trang (Bounce Rate) thấp hơn vì người dùng dễ dàng tìm thấy thông tin họ cần qua các vùng được phân chia rõ ràng.
